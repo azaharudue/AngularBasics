@@ -1,0 +1,9 @@
+1. for localhost server : ng serve 
+2. for installing Bootstrap3(Free version): npm --save bootstrap@3
+3. to add dependency of bootstrap Go to angular.json in styles add : "node_modules/bootstrap/dist/css/bootstrap.min.css".
+4. To create a component: 
+    ->define a class of component 
+    -> add a decorator @component({..})(first import {Component} from '@angular/core') 
+    -> add important informations: selector
+    in command line : ng generate component componentname
+                or : ng g c componentname
