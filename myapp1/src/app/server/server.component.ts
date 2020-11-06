@@ -1,10 +1,17 @@
-import { style } from '@angular/animations';
-import {Component} from '@angular/core'
+import { Component, OnInit } from '@angular/core';
+
+type number0 = number;
+
 @Component({
-    selector:'app-server',
-    templateUrl:'./app.component.html',
-    styleUrls:['./app.component.css']
+  selector: 'app-server',
+  templateUrl: './server.component.html'
+  // styleUrls: ['./server.component.css']
 })
-export class ServerComponent{
+export class ServerComponent {
+  serverId = 10;
+  serverStatus = 'offline';
+
+  constructor() { }
+
 
 }

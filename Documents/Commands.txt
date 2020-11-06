@@ -1,3 +1,4 @@
+0. create new Project: ng new projectName
 1. for localhost server : ng serve 
 2. for installing Bootstrap3(Free version): npm --save bootstrap@3
 3. to add dependency of bootstrap Go to angular.json in styles add : "node_modules/bootstrap/dist/css/bootstrap.min.css".
@@ -7,3 +8,5 @@
     -> add important informations: selector
     in command line : ng generate component componentname
                 or : ng g c componentname
+5. Data binding : Bussinesslogic (ts) and  Template  
+6. String interpolaion : Name : SomeName  {{SomeName}}
