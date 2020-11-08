@@ -13,3 +13,4 @@
 7. Property binding : uses [] to bind attributes
 8 Event binding : uses () to bind events F.e (click) = "onClickFunc()"
 9.Two way databinding : [(ngmodel)]
+10.

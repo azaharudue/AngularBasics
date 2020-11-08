@@ -6,10 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  username='';
-  makeEmpty(){
-    this.username =''; 
+  username = '';
+  makeEmpty() {
+    this.username = '';
   }
-  
-
 }

@@ -3,8 +3,8 @@ Components:
 Databinding: 
 Eventbindings:
 
-Directives : instructions in the DOM 
-            Built in Directives: *ngif
+Directives : Directives are instructions in the DOM 
+            Built in Directives: 
 
 Service:
 Dependency injection:
@@ -16,3 +16,5 @@ Http:
 Authentication:
 Optimizations:
 NgModules:
+*ngIf:
+ 

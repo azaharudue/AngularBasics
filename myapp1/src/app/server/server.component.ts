@@ -8,13 +8,18 @@ type number0 = number;
   // styleUrls: ['./server.component.css']
 })
 export class ServerComponent {
-  serverId = 10;
-  serverStatus = 'offline';
+  serverId:number = 10;
+  serverStatus:string = 'offline';
 
-  constructor() { }
-  
-  onChangeStatus(){
-    this.serverStatus = 'online';
+  constructor() { 
+    this.serverStatus = Math.random()> 0.5 ? 'online' : 'offline';
+  }
+  getServerStatus(){
+    return this.serverStatus;
+  }
+  getColor(){
+    return this.serverStatus ==='online'?'green':'red';
+
   }
 
 }
