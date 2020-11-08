@@ -12,6 +12,9 @@ export class ServerComponent {
   serverStatus = 'offline';
 
   constructor() { }
-
+  
+  onChangeStatus(){
+    this.serverStatus = 'online';
+  }
 
 }

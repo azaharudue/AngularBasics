@@ -1,0 +1,18 @@
+Components:
+
+Databinding: 
+Eventbindings:
+
+Directives : instructions in the DOM 
+            Built in Directives: *ngif
+
+Service:
+Dependency injection:
+Routing:
+Forms:
+Observables:
+Pipes:
+Http:
+Authentication:
+Optimizations:
+NgModules:
