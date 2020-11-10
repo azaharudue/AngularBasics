@@ -12,13 +12,14 @@
   </div>
 </div>
 <button class="btn btn-primary" (click)="onClickToggle()" >Display details</button>
-<p *ngIf="showContent" >{{numbers.includes(10)}}</p>
-<p *ngIf="showContent" >{{numbers.length}}</p>
-<div *ngFor="let n of numbers" 
+<div>
+<p *ngIf="showContent" >Contains? Number 10 already ? Ans: {{numbers.includes(10)}} <br>
+  Wat {{numbers.length}}</p>
+<p
+*ngFor="let n of numbers" 
   [ngStyle] = "{'backgroundColor': n>=5? 'blue':'yellow' }" 
   [ngClass] = "{'white-Numbers': n>5}"
-  >{{n}}
-
+  >{{n}} </p>
 </div>
 <hr>
   <button class="btn btn-primary" (click)="onClickDisplayDate()" >Display Time</button>

@@ -19,4 +19,7 @@ sudo npm install -g @angular/cli
 7. Property binding : uses [] to bind attributes
 8 Event binding : uses () to bind events F.e (click) = "onClickFunc()"
 9.Two way databinding : [(ngmodel)]
-10.
+10. *ngfor = let i in dataArrray 
+11. [ngStyle] = ""
+12. Structuring folders by feature  example : ng g c recipes/ recipes-list  
+13. to avoid test file : ng g c recipes/ recipes-list  --skipTests true

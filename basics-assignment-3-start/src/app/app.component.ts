@@ -10,8 +10,8 @@ export class AppComponent {
   numbers = [];
   dateEntry =[];
   onClickToggle(){
-    this.showContent = true;
-    this.numbers.push(this.numbers.length+1);
+    this.showContent = !this.showContent;
+    this.numbers.push(this.numbers.length + 1);
   }  
   onClickDisplayDate(){
     this.dateEntry.push(new Date());
