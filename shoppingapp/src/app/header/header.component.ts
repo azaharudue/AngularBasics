@@ -10,6 +10,5 @@ export class HeaderComponent {
     @Output() homePageClicked = new EventEmitter<string>();
     onClick(event: string): void{
         this.tabClicked.emit(event);
-        this.homePageClicked.emit(event);
     }
 }
