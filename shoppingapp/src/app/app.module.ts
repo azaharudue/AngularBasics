@@ -12,19 +12,19 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
 import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-item.component';
 @NgModule({
   declarations: [
-    AppComponent,
-    HeaderComponent,
-    RecipesComponent,
-    RecipeListComponent,
-    RecipeDetailComponent,
-    ShoppingListComponent,
-    ShoppingEditComponent,
-    RecipeItemComponent
+  AppComponent,
+  HeaderComponent,
+  RecipesComponent,
+  RecipeListComponent,
+  RecipeDetailComponent,
+  ShoppingListComponent,
+  ShoppingEditComponent,
+  RecipeItemComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

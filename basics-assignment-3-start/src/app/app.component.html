@@ -13,8 +13,8 @@
 </div>
 <button class="btn btn-primary" (click)="onClickToggle()" >Display details</button>
 <div>
-<p *ngIf="showContent" >Contains? Number 10 already ? Ans: {{numbers.includes(10)}} <br>
-  Wat {{numbers.length}}</p>
+<p *ngIf="showContent" >Contains the number 10 already ? Ans: {{numbers.includes(10)}} <br>
+  How many numbers already there? ans: {{numbers.length}}</p>
 <p
 *ngFor="let n of numbers" 
   [ngStyle] = "{'backgroundColor': n>=5? 'blue':'yellow' }" 

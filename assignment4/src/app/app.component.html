@@ -7,6 +7,6 @@
   </div>
 </div>
 <hr>
-<p class="container" style="text-align-last: right;color: blue; writing-mode: vertical-lr;display: inline;"><app-odd *ngFor="let oddnumber of oddnumbers" [oddEvent]="oddnumber"></app-odd></p>
+<p id="oddStyle" class="container" ><app-odd *ngFor="let oddnumber of oddnumbers" [oddEvent]="oddnumber"></app-odd></p>
 <hr>
 <p class="container" style="color: chartreuse;writing-mode: vertical-lr; display: inline;"><app-even *ngFor="let evennumber of evennumbers"[evenEvent]="evennumber"></app-even></p>

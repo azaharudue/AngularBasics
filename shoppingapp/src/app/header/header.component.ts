@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component ({
     selector : 'app-header',
@@ -6,4 +6,10 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
     collasped = true;
+    @Output() tabClicked = new  EventEmitter<string>();
+    @Output() homePageClicked = new EventEmitter<string>();
+    onClick(event: string): void{
+        this.tabClicked.emit(event);
+        this.homePageClicked.emit(event);
+    }
 }

@@ -29,3 +29,18 @@ export class Ingredient {
     constructor(public name: string, public amount: number){}
 }
  
+
+ View encapsulation: 
+    Angular enforces to change the style attribute for each Component and encapsules.
+
+Using <ng-content></ng-content> we can show all contents of components 
+    and modification in the like this <app-selector [something] = "sanotherthing" 
+    <p>some paragraph too</p>  </app-selector> 
+ngOnChanges: called after a bound property changes
+ngOnInit : Called once the component is initialized
+ngDoCheck:  .. every changes detection
+ngAfterContentInit: .. after content(ng-content) has been projected into View.
+ngAfterContentChecked: .. everytime the projected content has been checked 
+ngAfterViewInit: .. after the component's view (and child's view has been initialized)
+ngAfterViewChecked: .. everytime the view has been checked 
+ngOnDestroy: 

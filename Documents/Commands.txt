@@ -23,3 +23,7 @@ sudo npm install -g @angular/cli
 11. [ngStyle] = ""
 12. Structuring folders by feature  example : ng g c recipes/ recipes-list  
 13. to avoid test file : ng g c recipes/ recipes-list  --skipTests true
+14. Use decorator for accessing child element in any parent component F.e @input , @Output
+15. Properties binding through alias : in .ts  @Input('servElement')  and in .html ==> [servElement] same in @Output('bpCreated')
+16. Using local reference like this #SomeName , and @ViewChild('SomeName',{static: true}) we can use instead of property binding
+

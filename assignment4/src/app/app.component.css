@@ -1,0 +1,11 @@
+#oddStyle{
+    text-align:right;
+    color: blue; 
+    writing-mode: vertical-lr;
+    display: inline;
+}
+#evenStyle{
+    color: chartreuse;
+    writing-mode: vertical-lr; 
+    display: inline;
+}
