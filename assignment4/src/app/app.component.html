@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <app-game-controll (started)="onGameStarted($event)"></app-game-controll>
+      
+    </div>
+  </div>
+</div>
+<hr>
+<p id="oddStyle" class="container" ><app-odd *ngFor="let oddnumber of oddnumbers" [oddEvent]="oddnumber"></app-odd></p>
+<hr>
+<p id="evenStyle"class="container" ><app-even *ngFor="let evennumber of evennumbers"[evenEvent]="evennumber"></app-even></p>

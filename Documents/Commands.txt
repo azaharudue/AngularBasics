@@ -1,3 +1,9 @@
+sudo npm uninstall -g angular-cli @angular/cli
+npm cache clean --force
+sudo npm install -g @angular/cli
+
+
+
 0. create new Project: ng new projectName
 1. for localhost server : ng serve 
 2. for installing Bootstrap3(Free version): npm --save bootstrap@3
@@ -13,4 +19,11 @@
 7. Property binding : uses [] to bind attributes
 8 Event binding : uses () to bind events F.e (click) = "onClickFunc()"
 9.Two way databinding : [(ngmodel)]
-10.
+10. *ngfor = let i in dataArrray 
+11. [ngStyle] = ""
+12. Structuring folders by feature  example : ng g c recipes/ recipes-list  
+13. to avoid test file : ng g c recipes/ recipes-list  --skipTests true
+14. Use decorator for accessing child element in any parent component F.e @input , @Output
+15. Properties binding through alias : in .ts  @Input('servElement')  and in .html ==> [servElement] same in @Output('bpCreated')
+16. Using local reference like this #SomeName , and @ViewChild('SomeName',{static: true}) we can use instead of property binding
+
